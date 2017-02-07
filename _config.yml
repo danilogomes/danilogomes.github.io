@@ -1,0 +1,47 @@
+name:               "Danilo Gomes"
+description:        "Um blog para desenvolvedores iniciantes"
+
+url:                ""
+author:             "Danilo Gomes"
+email:              "danilomlgomes@gmail.com"
+gravatar_hash:      "448c58ffdae9ee49aaa8aa96d6de1ec5"
+twitter:            "danilomlgomes"
+email:              "danilomlgomes@gmail.com"
+github:             "danilogomes"
+pinterest:          "#"
+linkedin:           "danilodemelogomes"
+
+disqus_shortname:   "thinker3197"
+
+background:         "/images/black_image.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
